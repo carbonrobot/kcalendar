@@ -1,0 +1,31 @@
+/* CALENDAR */
+.kcalendar-table { border-collapse: collapse; border-spacing: 0; font-size: 1em; table-layout: fixed; }
+.kcalendar-table thead tr { }
+.kcalendar-table thead tr th { text-align: center; padding: 0; vertical-align: top; border: 1px solid #ccc; font-weight: bold; }
+.kcalendar-table tbody tr { }
+.kcalendar-table tbody tr td { padding: 0; vertical-align: top; border: 1px solid #ccc; background-color: #FAFAFA; }
+.kcalendar-table tbody tr:hover td { background-color: #FAFAFA; }
+
+.kcalendar-monthview .kcalendar-table { }
+
+.kcalendar-header .kcalendar-table { border: none; table-layout: auto; }
+.kcalendar-header .kcalendar-table thead tr.header th { border: none; padding-bottom: 5px; vertical-align: middle; background-color: #fff; }
+.kcalendar-header .kcalendar-table thead tr.header th.buttons-left { text-align: left; width: 25%; }
+.kcalendar-header .kcalendar-table thead tr.header th.buttons-right { text-align: right; width: 45%; }
+
+.kcalendar-day { height: 85px; }
+.kcalendar-day-number { text-align: right; width: 100%; }
+.kcalendar-day-content { padding: 0px 4px; }
+.kcalendar-day-content ul li { margin-bottom: 2px; }
+.kcalendar-day-content ul li.morelink { text-align: right; font-size: 0.85em; }
+.kcalendar-other-month { color: #999; }
+
+.kcalendar-monthview .day-view-only { display: none; }
+
+.kcalendar-eventlist { border: 1px solid #ccc; background-color: #FAFAFA; padding: 10px; min-height: 511px; }
+.kcalendar-eventlist ul { }
+.kcalendar-eventlist ul > li { margin-bottom: 10px; }
+
+.kcalendar-eventlist ul.expandedview { margin: 5px 0px 15px 50px; }
+.kcalendar-eventlist ul.expandedview h5 { display: none; }
+.kcalendar-eventlist ul.expandedview h6 { display: none; }
